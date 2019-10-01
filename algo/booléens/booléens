@@ -1,0 +1,70 @@
+END
+
+// opérateur NOT (!) 
+ALGORITHM exemple 
+	VARIABLES
+		BOOL: bool1, bool2
+		
+BEGIN
+	bool1 = true // assignation de bool1 à vrai
+	bool2 = !bool1 // assignation de bool2au contraire de bool1, donc faux
+	IF (bool1) THEN //Vériffie si bool1
+		WRITE "bool1 est vrai"
+	ELSE
+		WRITE "bool1 est faux"
+	ENDIF
+	
+	IF (bool2) THEN
+		WRITE "bool2 est vrai" 
+	ELSE 
+		WRITE "bool2 est faux"
+	ENDIF
+END
+
+// AND
+ALGORITHM example 
+	VARIABLES
+		BOOL: bool1, bool2au
+BEGIN
+	bool1 = false
+	bool2 = false 
+	IF ( bool1 && bool2) THEN // AND = && 
+		WRITE "a"
+		ENDIF
+		
+	bool1 = true
+	IF (bool1 && bool2) THEN
+		WRITE "c"
+	ENDIF
+	
+	bool2 = true 
+	IF (bool1 && bool2) THEN 
+		WRITE "d"
+	ENDIF
+		
+		// resultat de l'algo "c"
+END
+
+// OR
+ALGORITHM example
+	VARIABLES	
+	BOOL: bool1, bool2
+BEGIN
+	bool1 = false 
+	bool2 = false
+	IF (bool1 || bool2 THEN // OR = ||
+		WRITE "a"
+	ENDIF
+	
+	bool1 = true 
+	IF (bool1 || bool2) THEN
+		WRITE "c"
+	ENDIF
+	
+	bool1 = false 
+	IF (bool1 || bool2) THEN 
+		WRITE "d"
+	ENDIF
+	
+	// Le résultat est: bcd
+END

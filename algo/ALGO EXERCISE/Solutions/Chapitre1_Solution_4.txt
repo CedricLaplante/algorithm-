@@ -1,0 +1,12 @@
+ALGORITHM discSurface
+	CONSTANTS
+		PI = 3.1416
+	VARIABLES
+		FLOAT : r, surface
+	FUNCTIONS
+BEGIN
+	WRITE "enter the r:"
+	READ r
+	surface = r*r*PI
+	WRITE "the area for the disc is: " + surface
+END 

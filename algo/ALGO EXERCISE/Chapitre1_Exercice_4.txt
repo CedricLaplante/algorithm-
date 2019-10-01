@@ -1,0 +1,2 @@
+Exercice 4
+  Ecrire un algorithme 'discSurface' qui demande à l’utilisateur le rayon et calculer la surface de disque.

@@ -1,0 +1,4 @@
+Exercice 12
+	Ecrire un algorithme 'somme' qui demande à l'utilisateur un nombre N, puis calcule 
+	la somme des nombres pairs de 0 à N si N est pair et la sommes des nombres de 
+	0 à N impairs si N est impair et afficher le résultat.

@@ -1,0 +1,15 @@
+Solution 6
+	ALGORITHM division
+		VARIABLES 
+			INTEGER : a, b
+	BEGIN
+		WRITE (" Enter the number a : " )
+		READ (a)
+		WRITE (" Enter the number b ; " )
+		READ (b)
+		IF b = 0 THEN
+			WRITE (" Division by 0! " )
+		ELSE
+			WRITE (" The division is : ", a/b)
+		ENDIF
+	END

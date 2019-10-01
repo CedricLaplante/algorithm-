@@ -1,0 +1,15 @@
+Solution 2
+	ALGORITHM calculator
+		VARIABLES 
+			FLOAT : number_a, number_b
+	BEGIN
+		WRITE "enter the first number: "
+		READ number_a
+		WRITE "enter the second number: "
+		READ number_b
+		WRITE "the addition is : " + (number_a + number_b)
+		WRITE "the subtraction is : " + (number_a - number_b)
+		WRITE "the division is : " + (number_a / number_b)
+		WRITE "the product is : " + (number_a * number_b)
+		WRITE "the modulo is : " + (number_a % number_b)
+	FIN  

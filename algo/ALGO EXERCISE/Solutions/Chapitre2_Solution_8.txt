@@ -1,0 +1,23 @@
+Solution 9
+  ALGORITHM max3
+	VARIABLES 
+		FLOAT : a, b, c
+BEGIN
+	WRITE(« entrer a : « )
+	READ(a)
+	WRITE (« entrer b : « )
+	READ(b)
+	WRITE (« entrer c : « )
+	READ(c)
+	IF a>b AND a>c THEN
+		WRITE (« le plus grand est : «, a)
+	ENDIF
+	
+	IF b>a AND b>c THEN
+		WRITE (« le plus grand est : «, b)
+	ENDIF
+	
+	IF c>a AND c>b THEN
+		WRITE (« le plus grand est : «, c)
+	ENDIF
+END

@@ -1,0 +1,8 @@
+Exercice 10
+	Ecrire un algorithme 'somme' qui demande à l'utilisateur un nombre N, puis 
+	calcule la somme des nombres de 0 à N et affiche le résultat.
+	
+	** Faire deux algorithmes, une avec un while, et l'autre avec un do-while 
+
+EX: N = 4
+    Resultat = 1+2+3+4 = 10

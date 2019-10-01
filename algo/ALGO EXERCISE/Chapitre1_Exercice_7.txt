@@ -1,0 +1,4 @@
+Exercice 7
+	Ecrire un algorithme 'max' qui demande à 
+	l'utilisateur d’entrer deux nombre et afficher le plus grand.
+	Si les deux chiffres sont égaux, afficher "Equals".

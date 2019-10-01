@@ -1,0 +1,6 @@
+Exercice 11
+	Ecrire un pseudocode 'check' qui demande à l'utilisateur un nombre, et ce nombre 
+	doit obligatoirement être entre 0 et 10 inclusivement.
+	Dans le cas contraire, une redemande à l'utilisateur doit être faite.
+	
+	** Faire deux algorithmes, une avec un while, et l'autre avec un do-while

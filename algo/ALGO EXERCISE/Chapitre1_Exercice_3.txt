@@ -1,0 +1,3 @@
+Exercice 3
+  Ecrire un algorithme 'rectSurface' qui demande à l’utilisateur d’entrer 
+  la largeur et la longueur et afficher la surface d’un rectangle

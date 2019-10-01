@@ -1,0 +1,27 @@
+ALGORITHM exercise8
+	VARIABLES
+		FLOAT: nombre1, nombre2, nombre3
+BEGIN
+	nombre1 = 0
+	nombre2 = 0 
+	nombre3 = 0
+	
+	IF (nombre1 == nombre2 AND nombre2 == nombre3 AND nombre1 == nombre3) THEN
+		WRITE "Equals"
+		// ca veut dire les valeurs sont pareille
+	ELSE IF (nombre1 > nombre2 AND nombre1 > nombre3) THEN
+		WRITE "nombre1 est plus grand que nombre2 et nombre3"
+	ENDIF
+
+	IF (nombre1 < nombre2 AND nombre2 > nombre3) THEN
+		WRITE "La variables nombre2 est la plus grande"
+	ELSE IF (nombre1 < nombre3 AND nombre2 < nombre3) THEN	
+		WRITE "La valeurs nombre3 est la plus grandes"
+	ENDIF
+
+	IF (nombre	
+		
+		
+		
+		
+END		

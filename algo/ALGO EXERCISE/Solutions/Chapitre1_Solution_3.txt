@@ -1,0 +1,13 @@
+ALGORITHM rectSurface 
+	CONSTANTS
+	VARIABLES
+		FLOAT : width, length 
+	FUNCTIONS
+BEGIN 
+	WRITE "Enter the width: "
+	READ width
+	WRITE "Enter the length: "
+	READ length
+	
+	WRITE "The surface is : " + (width * length)
+END 

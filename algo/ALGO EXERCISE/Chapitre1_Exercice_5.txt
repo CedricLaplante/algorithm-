@@ -1,0 +1,3 @@
+Exercice 5
+	Ecrire un algorithme 'scalarProduct' qui demande à l'utilisateur le composants de
+	deux vecteurs et calculer le produit scalaire.

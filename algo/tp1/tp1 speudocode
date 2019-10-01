@@ -1,0 +1,29 @@
+ALGORITHM tp1_algo
+	CONSTANTE
+		int roche = 1
+		int papier = 2
+		int ciseaux = 3
+	VARIABLES
+		bool win
+		int pcRandom 
+		int player 
+		
+		Begin
+
+			WRITE "Bienvenue à roche papier ciseaux"			
+			WRITE "C'est un 3 de 5. C'est a dire qu'après trois victoires ou trois défaites, le jeu s'arrête."
+			WRITE " Les choix sont les suivants 1 = roche, 2 = papier, 3 = ciseaux"
+						
+			pcRandom = Random(1,3)
+			
+			WRITE "Tu a gagné(e)!"			
+				if
+					
+		
+		END
+		
+		
+		
+			
+		
+		

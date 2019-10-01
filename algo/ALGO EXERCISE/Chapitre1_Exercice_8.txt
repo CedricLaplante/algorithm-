@@ -1,0 +1,4 @@
+Exercice 8
+	Ecrire un algorithme 'max' qui demande à l’utilisateur d’entrer 
+	trois nombre et afficher le plus grand ou egal si les trois nombres
+	sont égaux.

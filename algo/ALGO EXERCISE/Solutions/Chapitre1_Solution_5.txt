@@ -1,0 +1,15 @@
+Solution 5
+ALGORITHM scalarProduct
+	CONSTANTS
+	VARIABLES
+		FLOAT : x1, y1, z1, x2, y2, z2
+	FUNCTIONS
+BEGIN
+	WRITE "Enter x1, y1, z1:" 
+	READ x1, y1, z1 
+	WRITE "Enter x2, y2, z2:"
+	READ x2 
+	READ y2
+	READ z2
+	WRITE "The scalar product is: " + ((x1 * x2) + (y1 * y2) + (z1 * z2))
+END 

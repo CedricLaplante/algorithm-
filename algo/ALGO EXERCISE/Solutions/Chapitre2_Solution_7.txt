@@ -1,0 +1,17 @@
+Solution 7
+	Algo max
+		VARIABLES 
+			INTEGER : a, b
+	BEGIN
+		WRITE (" Enter a : ")
+		READ (a)
+		WRITE (" Enter b : " )
+		READ (b)
+		IF a>b THEN
+			WRITE (" The bigger is : ", a)
+		ELSE IF a < b
+			WRITE (" The bigger is : ", b)
+		ELSE 
+			WRITE ("Equals!")
+		ENDIF
+	END

@@ -1,0 +1,59 @@
+ALGORITHM exercice3 
+	VARIABLES
+		FLOAT : longeur, largeur 
+BEGIN	
+	longeur1 = 0.0 
+	largeur1 = 0.0
+			
+	WRITE "Entrer la largeur : "
+	READ largeur
+	
+	WRITE "Entrer la longeur: "
+	READ longeur
+	
+	WRITE "La surface du rectangle: " + (largeur1* longeur1) // formule surface d'un rectangle 
+	
+END
+
+// exercise4
+
+ALGORITHM exercise4
+	CONSTANTES
+		pi = 3.14159265359
+	VARIABLES
+		FLOAT : rayon
+BEGIN
+	rayon = 0
+	
+	WRITE "Entrer le rayon du cercle: "
+	READ rayon
+	
+	WRITE "La surface est: " + (rayon * rayon * pi) // trouver la surface d'un cercle
+
+END
+
+//exercise5
+	
+ALGORITHM exercise5
+	VARIABLES	
+		FLOAT : x1,x2,y1,y2
+
+BEGIN
+	x1 = 0.0
+	x2 = 0.0 
+	y1 = 0.0 
+	y2 = 0.0
+	
+	WRITE "Entrer la valeur du premier vecteurs: "
+	READ x1, y1
+	
+	WRITE "Entrer la valeur du troisieme vecteurs: "
+	READ x2, y2
+	
+	WRITE "Le produitScalaire de deux vecteurs: "+(( x1 * x2) + (y1 * y2)) //addition de deux vecteurs 
+	
+
+END
+		
+	
+	

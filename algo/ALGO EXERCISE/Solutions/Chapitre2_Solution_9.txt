@@ -1,0 +1,20 @@
+ALGORITHM note
+	VARIABLES
+		INTEGER: note
+BEGIN
+	WRITE("Entrer la note a evaluer: ")
+	READ(note)
+	
+	IF (note >= 0 && note < 10) THEN
+		WRITE ("Faible)
+	ELSE IF (note >= 10 && note < 12) THEN
+		WRITE ("Passable")
+	ELSE IF (note >= 12 && note < 14) THEN
+		WRITE ("A. Bien")
+	ELSE IF (note >= 14 && note < 18) THEN 
+		WRITE ("T. Bien")
+	ELSE IF (note >= 18 && note <= 20) THEN
+		WRITE("Excellent")
+	ELSE 
+		WRITE("La note n'est pas entre 0 et 20")
+END

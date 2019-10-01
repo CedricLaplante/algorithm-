@@ -1,0 +1,5 @@
+Exercice 6
+	Ecrire un algorithme 'division' pour calculer le quotient de deux 
+	nombre entré par l'utilisateur : a/b
+    
+	La division par zéro doit être vérifier!

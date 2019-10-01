@@ -1,0 +1,63 @@
+// structure d'un algorithm	
+ALGORITHM nom_de_largo
+		<DÉCLARATION>
+BEGIN
+		<INSRUCTIONS - LE CODE LOGIQUE>
+END
+
+// DECLARATION
+ALGORITHM algo1
+	<declration de constantes>
+	<declaration des variables>
+BEGIN
+		<instruction - le code logicque>
+END	
+
+// constantes	
+algorithm algo 
+			CONSTANTES
+			patate = 10 // integer	
+			toto = 10.5 // float
+BEGIN	
+END
+
+// Variables - change au runtime (pendant l'application)
+ALGORITHM 	algo		
+			VARIABLES	
+					INTERGER : ppatate1, toto2 , tata3 // tous en des entiers (ex: -200,...5,6,7,8,..)
+					FLOAT : gigi1, gogo2 // tous des chiffre èa virgules (ex: 1.5,4.5, ...)
+					BOOL : 	bool1 // des booleans ( vrai ou faux)
+					CHAR : 	char1, charizard // tous des char (une seul lettre - single quote ex: a'
+					STRING : str1, str2 // tous des chaines de cractères ( double quôtes ex: allo papa)
+BEGIN	
+	patate1 = 1	
+	toto2 = 10 
+	tata3 = -57
+	gigi1 = 2.0
+	gogo2 = -99999999.59
+	bool1 fasle // true	
+	charl1 = 'g'
+	charizard = '9'
+	str1 = "J'aime mon prof"
+	str2 = "C'est le meilleur!"
+END 
+
+// constantes+variables
+ALGORITHM
+	CONSTANTES
+		chiens = 5
+		chats = 4
+	VARIABLES	
+		BOOL : patate 		
+			INTERGER : userInput
+BEGIN	
+	patate = fasle 	
+	READ userInput = 0
+	
+	WRITE "Nombre de chiens: " + chiens // affiche "Nombre de chiens: 5"
+	WRITE "Nombre de chats: " + chats //affiche "Nombre de chats: 4"
+	
+	WRITE "Enter votre age: "
+	READ userInput // ex: le joueur entre 21
+	WRITE "L'age du joueur est: +userInput // affiche "L'age du joueur est: 21"
+END
